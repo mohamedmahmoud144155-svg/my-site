@@ -1,137 +1,86 @@
 <!DOCTYPE html>
 <html lang="ar">
 <head>
-  <meta charset="UTF-8">
-  <title>عالم كرة القدم</title>
+<meta charset="UTF-8">
+<title>عالم كرة القدم</title>
 
-  <style>
-    body{
-      margin:0;
-      font-family: Arial;
-      background:#f2f2f2;
-      text-align:center;
-    }
+<style>
+body{
+  margin:0;
+  font-family: Arial;
+  background:#f2f2f2;
+  text-align:center;
+}
 
-    header{
-      background:#1e90ff;
-      color:white;
-      padding:20px;
-    }
+header{
+  background:#1e90ff;
+  color:white;
+  padding:20px;
+}
 
-    .section{
-      padding:20px;
-    }
+.card{
+  background:white;
+  margin:20px auto;
+  padding:20px;
+  width:90%;
+  max-width:800px;
+  border-radius:10px;
+  box-shadow:0 0 10px #ccc;
+  text-align:right;
+}
 
-    .card{
-      background:white;
-      margin:20px auto;
-      padding:20px;
-      width:90%;
-      max-width:800px;
-      border-radius:10px;
-      box-shadow:0 0 10px #ccc;
-      text-align:right;
-    }
+img{
+  width:100%;
+  border-radius:10px;
+}
 
-    img{
-      width:100%;
-      border-radius:10px;
-    }
+h2{
+  color:#1e90ff;
+}
 
-    h2{
-      color:#1e90ff;
-    }
+p{
+  line-height:1.8;
+}
+</style>
 
-    p{
-      line-height:1.8;
-    }
-
-    ul{
-      line-height:2;
-    }
-  </style>
 </head>
 
 <body>
 
 <header>
-  <h1>⚽ عالم كرة القدم</h1>
-  <p>موقع شامل عن اللاعبين والبطولات والتاريخ</p>
+<h1>⚽ عالم كرة القدم</h1>
+<p>أفضل اللاعبين والبطولات في مكان واحد</p>
 </header>
 
-<div class="section">
+<div class="card">
+<h2>🔥 كريستيانو رونالدو</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg">
+<p>أحد أعظم لاعبي التاريخ، معروف بالقوة والسرعة والتسجيل من كل مكان.</p>
+</div>
 
-  <!-- تعريف -->
-  <div class="card">
-    <h2>⚽ ما هي كرة القدم؟</h2>
-    <p>
-      كرة القدم هي أشهر رياضة في العالم، تُلعب بين فريقين كل فريق 11 لاعب،
-      والهدف هو تسجيل أكبر عدد من الأهداف داخل مرمى الخصم.
-      يتابعها مليارات الناس حول العالم.
-    </p>
-  </div>
+<div class="card">
+<h2>🐐 ليونيل ميسي</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Lionel_Messi_20180626.jpg">
+<p>أسطورة الأرجنتين، أفضل مراوغ في تاريخ كرة القدم وقائد المنتخب.</p>
+</div>
 
-  <!-- رونالدو -->
-  <div class="card">
-    <h2>🔥 كريستيانو رونالدو</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Cristiano_Ronaldo_2018.jpg">
-    <p>
-      بدأ من الفقر في ماديرا بالبرتغال، وأصبح واحد من أعظم اللاعبين في التاريخ.
-      لعب لمانشستر يونايتد وريال مدريد ويوفنتوس، وحقق بطولات كثيرة.
-    </p>
-  </div>
+<div class="card">
+<h2>🇧🇷 نيمار</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Neymar_Jr_2018.jpg">
+<p>لاعب برازيلي موهوب جداً في المراوغة والمهارات الاستعراضية.</p>
+</div>
 
-  <!-- ميسي -->
-  <div class="card">
-    <h2>🐐 ليونيل ميسي</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Lionel_Messi_20180626.jpg">
-    <p>
-      أسطورة الأرجنتين، واجه صعوبات في طفولته بسبب النمو،
-      لكنه أصبح أفضل لاعب في العالم وقاد بلاده لكأس العالم 2022.
-    </p>
-  </div>
+<div class="card">
+<h2>🇪🇬 محمد صلاح</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Mohamed_Salah_2018.jpg">
+<p>نجم مصري عالمي، حقق نجاحات كبيرة مع ليفربول في أوروبا.</p>
+</div>
 
-  <!-- نيمار -->
-  <div class="card">
-    <h2>🇧🇷 نيمار</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Neymar_Jr_2018.jpg">
-    <p>
-      لاعب برازيلي موهوب يتميز بالمراوغات والمهارات الاستعراضية.
-      لعب لبرشلونة وباريس سان جيرمان.
-    </p>
-  </div>
-
-  <!-- محمد صلاح -->
-  <div class="card">
-    <h2>🇪🇬 محمد صلاح</h2>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Mohamed_Salah_2018.jpg">
-    <p>
-      نجم مصري عالمي بدأ من المقاولون العرب، وتألق مع ليفربول
-      وأصبح من أفضل لاعبي العالم.
-    </p>
-  </div>
-
-  <!-- البطولات -->
-  <div class="card">
-    <h2>🏆 أهم البطولات</h2>
-    <ul>
-      <li>كأس العالم</li>
-      <li>دوري أبطال أوروبا</li>
-      <li>الدوري الإنجليزي الممتاز</li>
-      <li>الدوري الإسباني</li>
-      <li>كأس أمم إفريقيا</li>
-    </ul>
-  </div>
-
-  <!-- تاريخ اللعبة -->
-  <div class="card">
-    <h2>📜 تاريخ كرة القدم</h2>
-    <p>
-      بدأت كرة القدم بشكلها الحديث في إنجلترا في القرن التاسع عشر،
-      وانتشرت بسرعة في كل العالم حتى أصبحت اللعبة رقم 1 عالميًا.
-    </p>
-  </div>
-
+<div class="card">
+<h2>🏆 أهم البطولات</h2>
+<p>
+كأس العالم - دوري أبطال أوروبا - الدوري الإنجليزي - الدوري الإسباني - كأس إفريقيا
+</p>
 </div>
 
 </body>
